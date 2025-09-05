@@ -1,0 +1,30 @@
+.page-nav {
+    display:flex;
+    align-items: center;
+    font-size: 20px;
+}
+
+.page-nav h4 {
+    flex:1;
+    text-align:center;
+    vertical-align: middle;
+    margin:0;
+}
+
+.page-nav h3 {
+  flex:1;
+  text-align:center;
+  vertical-align: middle;
+  margin:0;
+}
+
+.show {
+    cursor:pointer;
+  }
+  
+.noShow {
+    color:lightgray;
+    pointer-events: none;
+  }
+
+

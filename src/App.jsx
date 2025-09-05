@@ -1,11 +1,11 @@
 import './App.css';
-import Header from './header/header.js';
-import Sidebar from './sidebar/sidebar.js';
-import Page from './page/page.js';
+import Header from './header/header.jsx';
+import Sidebar from './sidebar/sidebar.jsx';
+import Page from './page/page.jsx';
 import { useReducer } from 'react';
-import { context, dispatchContext } from './context.js';
+import { context, dispatchContext } from './context.jsx';
 import { defaultState }  from './state.js';
-import LoginForm from './login/login.js';
+import LoginForm from './login/login.jsx';
 
 function App() {
     const [state, dispatch] = useReducer(

@@ -1,0 +1,18 @@
+.editBlockTitle {
+  width: 400px;
+}
+
+.editBlockArea {
+  width: 98%;
+  height: 200px;
+  resize: both;
+  overflow: auto;
+}
+
+.saveBlockButton {
+    
+}
+
+.divspace {
+    margin-top: 20px;
+}
